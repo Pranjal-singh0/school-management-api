@@ -11,7 +11,6 @@ app.use(express.json());
 // Routes
 app.use('/api', schoolRoutes);
 
-// Health check
 app.get('/', (req, res) => {
   res.send('School API is running');
 });
